@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 701b252be15c1a549b28bcccb0b07ffc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 171169
+  packageName: Firefighter
+  packageVersion: 1.0
+  assetPath: Assets/Firefighter/Materials/M_Firefighter_glass.mat
+  uploadId: 386876

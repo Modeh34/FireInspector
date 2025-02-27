@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ca9c56dac7aee4248b877cfb5a6d8222
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 171169
+  packageName: Firefighter
+  packageVersion: 1.0
+  assetPath: Assets/Firefighter/Materials/M_Firefighter_helmet.mat
+  uploadId: 386876

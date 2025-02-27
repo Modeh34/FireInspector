@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 66f99c3888e59504e90b82769d3ebc4b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 171169
+  packageName: Firefighter
+  packageVersion: 1.0
+  assetPath: Assets/Firefighter/Materials/M_Firefighter_leg.mat
+  uploadId: 386876

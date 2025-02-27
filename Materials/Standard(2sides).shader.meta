@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ab35f8ad535cc7c4bbff2421ec90e959
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 171169
+  packageName: Firefighter
+  packageVersion: 1.0
+  assetPath: Assets/Firefighter/Materials/Standard(2sides).shader
+  uploadId: 386876

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 17b8ab75b1c145c43bcac75ec5c66f05
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 171169
+  packageName: Firefighter
+  packageVersion: 1.0
+  assetPath: Assets/Firefighter/Materials/T_Firefighter_Torso_BaseColor.mat
+  uploadId: 386876
