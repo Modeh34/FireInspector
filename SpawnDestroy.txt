@@ -1,0 +1,21 @@
+using UnityEngine;
+
+public class SpawnAndDestroyTwoTriggers : MonoBehaviour
+{
+    public Transform Spawnpoint;
+    public GameObject Prefab;
+    private static GameObject spawnedObject;
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (CompareTag("SpawnTrigger") && spawnedObject == null)
+        {
+            spawnedObject = Instantiate(Prefab, Spawnpoint.position, Spawnpoint.rotation);
+        }
+        else if (CompareTag("DestroyTrigger") && spawnedObject != null)
+        {
+            Destroy(spawnedObject);
+            spawnedObject = null;
+        }
+    }
+}
