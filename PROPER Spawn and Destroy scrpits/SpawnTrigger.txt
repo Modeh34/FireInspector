@@ -1,0 +1,23 @@
+using UnityEngine;
+
+public class SpawnTrigger : MonoBehaviour
+{
+    public Transform Spawnpoint;
+    public GameObject Prefab;
+    public DestroyTrigger linkedDestroyTrigger;
+
+    private GameObject spawnedObject;
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (CompareTag("SpawnTrigger") && spawnedObject == null)
+        {
+            spawnedObject = Instantiate(Prefab, Spawnpoint.position, Spawnpoint.rotation);
+
+            if (linkedDestroyTrigger != null)
+            {
+                linkedDestroyTrigger.SetSpawnedObject(spawnedObject);
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+using UnityEngine;
+
+public class DestroyTrigger : MonoBehaviour
+{
+    private GameObject spawnedObject; 
+    public void SetSpawnedObject(GameObject obj)
+    {
+        spawnedObject = obj;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (CompareTag("DestroyTrigger") && spawnedObject != null)
+        {
+            Destroy(spawnedObject);
+            spawnedObject = null;
+        }
+    }
+}
